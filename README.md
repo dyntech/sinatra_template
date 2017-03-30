@@ -1,6 +1,6 @@
-# Sinatra template
+# Sinatra Template
 
-This is a template directory for building quickly structured Sinatra applications.
+This is a template directory for quickly building simple structured Sinatra applications.
 
 ## Environment
 
@@ -16,7 +16,7 @@ The `app_example.yml` should be copied to `app.yml` and the appropriate changes 
 
 ### Install Bundler
 
-        $ gem install bundler -v 1.14.3
+        $ gem install bundler
     
 ### Using Homebrew MySQL Install 
 
@@ -53,7 +53,7 @@ Running reload watching for file changes:
     $ rerun --pattern '**/*.{rb,js,coffee,css,scss,sass,erb,html,haml,ru,yml,slim,md,feature}' --notify osx -- rackup -s thin -p 4567 -o 0.0.0.0
     
 
-### Thin SSL
+### Thin using SSL
 
     $ thin -p 4567 \
      --ssl \
