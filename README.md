@@ -6,7 +6,7 @@ This is a template directory for building quickly structured Sinatra application
 
 The `app_example.yml` should be copied to `app.yml` and the appropriate changes made.
 
-    $ cp config/app_example.yml app.yml
+    $ cp config/app_example.yml config/app.yml
 
 ## Installation
    
