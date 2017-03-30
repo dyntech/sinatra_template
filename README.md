@@ -4,7 +4,7 @@ This is a template directory for building quickly structured Sinatra application
 
 ## Environment
 
-The `app_example.yml` shoud be copies to `app.yml` and make the appropriate changes.
+The `app_example.yml` should be copied to `app.yml` and the appropriate changes made.
 
     $ cp config/app_example.yml app.yml
 
@@ -12,9 +12,10 @@ The `app_example.yml` shoud be copies to `app.yml` and make the appropriate chan
    
 * Ruby 2.4.0
 * MySQL 5.7.17 (need to install for client libs)
-* MySQL C Connector (use in you do not want to install MySQL)
+* MySQL C Connector (if you do not want to install MySQL)
 
 ### Install Bundler
+
         $ gem install bundler -v 1.14.3
     
 ### Using Homebrew MySQL Install 
