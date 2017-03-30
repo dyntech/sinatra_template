@@ -52,8 +52,8 @@ Running reload watching for file changes:
 
     $ thin -p 4567 \
      --ssl \
-     --ssl-key-file /Users/rbirch/Development/gizmo/gizmo_openemr/config/self_signed.key \
-     --ssl-cert-file /Users/rbirch/Development/gizmo/gizmo_openemr/config/self_signed.crt \
+     --ssl-key-file ~/project/config/self_signed.key \
+     --ssl-cert-file ~/project/config/self_signed.crt \
      --rackup config.ru \
      start
 
