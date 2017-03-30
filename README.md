@@ -29,6 +29,10 @@ Point bundler to the MySQL configuration tool
 
         $ brew install mysql-connector-c
         $ bundle config build.mysql2 --with-mysql-rpath=/usr/local/lib
+        
+##### Dummy Model
+
+In the 'model' directory there is a model name `Dummy` this **should be removed** it's an example for building model classes. 
  
 ## Configuration
 
