@@ -1,0 +1,21 @@
+development:
+  public_directory: public
+  logging: true
+  database:
+    adapter: mysql2
+    host: 0.0.0.0
+    port: 3306
+    database: openemr
+    user: chatbot
+    password: bots4Me
+
+test:
+  public_directory: public
+  logging: true
+  database:
+    adapter: mysql2
+    host: 0.0.0.0
+    port: 3306
+    database: openemr
+    user: chatbot
+    password: bots4Me
